@@ -164,16 +164,16 @@ Module.register("MMM-forecast-io", {
     var large = document.createElement("div");
     large.className = "large light";
 
-    var icon = currentWeather ? currentWeather.icon : hourly.icon;
-    var iconClass = this.config.iconTable[icon];
-    var icon = document.createElement("span");
-    icon.className = 'big-icon wi ' + iconClass;
-    large.appendChild(icon);
+    // var icon = currentWeather ? currentWeather.icon : hourly.icon;
+    // var iconClass = this.config.iconTable[icon];
+    // var icon = document.createElement("span");
+    // icon.className = 'big-icon wi ' + iconClass;
+    // large.appendChild(icon);
 
-    var temperature = document.createElement("span");
-    temperature.className = "bright";
-    temperature.innerHTML = " " + this.temp + "&deg;";
-    large.appendChild(temperature);
+    // var temperature = document.createElement("span");
+    // temperature.className = "bright";
+    // temperature.innerHTML = " " + this.temp + "&deg;";
+    // large.appendChild(temperature);
 
     if (this.roomTemperature !== undefined) {
       var icon = document.createElement("span");
